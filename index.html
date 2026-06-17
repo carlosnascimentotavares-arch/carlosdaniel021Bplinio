@@ -73,6 +73,21 @@
             font-weight: bold;
         }
 
+        /* Estilização para deixar o vídeo centralizado e responsivo */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            background-color: #000000;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #333333;
+        }
+
+        .video-container iframe {
+            max-width: 100%;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -104,6 +119,13 @@
                 <li><span class="highlight">Super Velocidade:</span> Equipado com seus Air Shoes, ele consegue rivalizar com a velocidade de Sonic.</li>
                 <li><span class="highlight">Imortalidade:</span> Ele não envelhece e é imune a doenças.</li>
             </ul>
+        </section>
+
+        <section id="video">
+            <h2>Destaque em Vídeo</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8BAMAXmlTEc?si=wDkaFHmSt99cv8Qm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
 
         <section id="curiosidade">
